@@ -1,1 +1,2 @@
 # LOGIN_PAGE
+This is a stylish, anime-themed login page built with HTML and CSS. The page features a clean and modern design with a vibrant, dark-themed color palette and anime-inspired graphics. It includes essential elements like a username and password input form, as well as a visually appealing logo. This login page is responsive, ensuring a smooth user experience across both desktop and mobile devices.
