@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> <!-- Added Poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <div class="main">
         <div class="navbar">
             <div class="icon">
                 <h2 class="logo">Login Page</h2>
             </div>
 
+            <div class="menu-icon" onclick="toggleMenu()">☰</div> <!-- Hamburger Icon for small screens -->
+            
             <div class="menu">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -35,8 +36,14 @@
             </form>
             <p>Don't have an account? <a href="#">Sign up</a></p>
         </div>
-        
     </div>
 
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            menu.style.display = (menu.style.display === "block") ? "none" : "block";
+        }
+    </script>
 </body>
 </html>
+
